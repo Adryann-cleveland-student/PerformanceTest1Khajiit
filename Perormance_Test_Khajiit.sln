@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perormance_Test_Khajiit", "Perormance_Test_Khajiit\Perormance_Test_Khajiit.csproj", "{01614402-A621-4C51-878F-D7A30DEEEE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{9E590F98-EBA5-450E-A6F6-6D8B05A1FCBC}"
+	ProjectSection(SolutionItems) = preProject
+		MasserMoon.cs = MasserMoon.cs
+		SecundaMoon.cs = SecundaMoon.cs
+		VariantKhajiit.cs = VariantKhajiit.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{8364DC02-ADE3-417D-BF66-773F0830321B}"
+	ProjectSection(SolutionItems) = preProject
+		Masser.cs = Masser.cs
+		Secunda.cs = Secunda.cs
+		Variant.cs = Variant.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01614402-A621-4C51-878F-D7A30DEEEE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01614402-A621-4C51-878F-D7A30DEEEE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01614402-A621-4C51-878F-D7A30DEEEE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01614402-A621-4C51-878F-D7A30DEEEE43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8847F83F-8775-467E-BBE5-F926BD63997A}
+	EndGlobalSection
+EndGlobal
